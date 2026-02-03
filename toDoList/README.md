@@ -1,16 +1,79 @@
-# React + Vite
+# ✅ React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *Small tasks done consistently build great systems.*
 
-Currently, two official plugins are available:
+A **modern, clean, and interactive To-Do List application** built using **React Hooks**.  
+This project focuses on **correct state management**, **clean UI**, and **real-world React fundamentals** — not unnecessary complexity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌟 Live Preview
+*(Optional — add if hosted on GitHub Pages / Vercel)*  
+🔗 https://your-live-link-here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Add tasks instantly  
+🗑️ Delete tasks with one click  
+🚫 Prevents empty task submission  
+🎨 Beautiful glassmorphism UI  
+📱 Fully responsive layout  
+⚡ Smooth animations & interactions  
+
+---
+
+## 🧠 What This Project Demonstrates
+
+This project is intentionally simple but **professionally structured** to show:
+
+- **React `useState` Hook**
+- **Controlled Components**
+- **Immutable state updates**
+- **Conditional rendering**
+- **Rendering lists with `map()`**
+- **Event handling (onClick, onChange)**
+- **Clean component logic**
+
+These are the **exact fundamentals recruiters expect** from a React beginner.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React JS**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3 (Glassmorphism + Gradients)**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── List.jsx        # Main To-Do component
+├── App.jsx         # App entry
+├── index.css       # Global styles
+└── main.jsx        # React DOM entry
+```
+
+---
+### Clone the repository
+```text
+git clone https://github.com/Durgaprasad4289/To-Do-List.git
+```
+### Move into project folder
+```text
+cd todolist
+```
+### Install dependencies
+```
+npm install
+```
+### Start development server
+```
+npm run dev
+```
