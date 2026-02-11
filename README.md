@@ -71,18 +71,30 @@ It demonstrates:
 
 ```text
 To-Do-List/
-│
-├── 📦 src/                     # React source code
-│   ├── ⚛️ App.jsx              # Root React component
-│   ├── 🚀 main.jsx             # Application entry point
-│   ├── 🎨 index.css            # Global styles
-│
-├── 🌐 public/                  # Static assets
-│
-├── 📄 package.json             # Project metadata & scripts
-├── ⚙️ vite.config.js           # Vite configuration
-└── 📝 README.md                # Project documentation
 
+├── 📁 public
+│   └── 🖼️ vite.svg
+├── 📁 src
+│   ├── 📁 assets
+│   │   └── 🖼️ react.svg
+│   ├── 📁 components
+│   │   └── 📄 todolist.jsx
+│   ├── 🎨 App.css
+│   ├── 📄 App.jsx
+│   ├── 🎨 index.css
+│   └── 📄 main.jsx
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── 📄 vite.config.js
+```
+
+---
+
+## To Cole Repo Follow These instructions
 ```
 ### Clone the repository:
 ```
