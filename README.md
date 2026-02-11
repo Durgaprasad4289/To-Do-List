@@ -98,7 +98,7 @@ To-Do-List/
 ```
 ### Clone the repository:
 ```
-git clone https://github.com/Durgaprasad4289/To-Do-List.git
+git clone https://durgaprasad4289.github.io/To-Do-List/
 ```
 ### Navigate to the project:
 ```
