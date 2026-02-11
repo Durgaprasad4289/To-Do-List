@@ -95,20 +95,23 @@ To-Do-List/
 ---
 
 ## To Cole Repo Follow These instructions
-```
 ### Clone the repository:
 ```
 git clone https://durgaprasad4289.github.io/To-Do-List/
+
 ```
+
 ### Navigate to the project:
 ```
 cd To-Do-List
-
 ```
+
 ### Install dependencies:
+
 ```
 npm install
 ```
+
 ### Run locally:
 ```
 npm run dev
