@@ -12,7 +12,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(circle at top left, #31515e, #b717f6);
+  background: radial-gradient(circle at top left, #0f3d3e, #211b49 55%, #ff8fb1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,12 +32,12 @@ body {
   width: min(450px, 100%);
   background: linear-gradient(
     135deg,
-    #ffffff00 0%,
-    rgba(255, 255, 255, 0.03) 100%
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.02) 100%
   );
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 28px;
   padding: 40px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
@@ -81,8 +81,8 @@ body {
 
 .container input:focus {
   background: rgba(255, 255, 255, 0.1);
-  border-color: #a594f9;
-  box-shadow: 0 0 0 4px rgba(165, 148, 249, 0.2);
+  border-color: #7de2d1;
+  box-shadow: 0 0 0 4px rgba(125, 226, 209, 0.25);
 }
 
 /* ➕ Button */
@@ -91,7 +91,7 @@ body {
   height: 54px;
   border: none;
   border-radius: 14px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #20c997, #0ea5e9);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -101,7 +101,7 @@ body {
 
 .container button:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 10px 20px rgba(118, 75, 162, 0.4);
+  box-shadow: 0 10px 20px rgba(14, 165, 233, 0.35);
 }
 
 .container button:active {
@@ -127,7 +127,7 @@ body {
 }
 
 .total-tasks::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(125, 226, 209, 0.35);
   border-radius: 10px;
 }
 
@@ -146,8 +146,7 @@ body {
 
 .cur-task:hover {
   background: rgba(255, 255, 255, 0.08);
-  transform: translateX(4px);
-  border-color: rgba(165, 148, 249, 0.3);
+  border-color: rgba(125, 226, 209, 0.45);
 }
 
 .task-content {
@@ -181,7 +180,7 @@ body {
 
 .delete-btn:hover {
   opacity: 1;
-  background: rgba(255, 77, 79, 0.1);
+  background: rgba(255, 120, 120, 0.2);
   transform: scale(1.2) rotate(90deg);
 }
 
@@ -189,7 +188,7 @@ body {
 .empty-state {
     text-align: center;
     padding: 20px;
-    color: black;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .empty-state p {
@@ -222,4 +221,29 @@ body {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+
+    .container input, .container button {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .task-text {
+        font-size: 15px;
+    }
+    .input-group {
+        flex-direction: column;
+        height: 120px;
+
+    }
 }
