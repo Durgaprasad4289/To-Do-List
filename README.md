@@ -5,7 +5,7 @@
 A clean, minimal, and production-ready **To-Do List application** built using **React + Vite**, focused on mastering **state management, component structure, and real-world React patterns**.
 
 🚀 **Live Demo:**  
-👉 https://durgaprasad4289.github.io/To-Do-List/
+👉 [CLick Here For Live Demo](https://durgaprasad4289.github.io/To-Do-List/)
 
 <br/>
 
@@ -71,32 +71,47 @@ It demonstrates:
 
 ```text
 To-Do-List/
-│
-├── 📦 src/                     # React source code
-│   ├── ⚛️ App.jsx              # Root React component
-│   ├── 🚀 main.jsx             # Application entry point
-│   ├── 🎨 index.css            # Global styles
-│
-├── 🌐 public/                  # Static assets
-│
-├── 📄 package.json             # Project metadata & scripts
-├── ⚙️ vite.config.js           # Vite configuration
-└── 📝 README.md                # Project documentation
 
+├── 📁 public
+│   └── 🖼️ vite.svg
+├── 📁 src
+│   ├── 📁 assets
+│   │   └── 🖼️ react.svg
+│   ├── 📁 components
+│   │   └── 📄 todolist.jsx
+│   ├── 🎨 App.css
+│   ├── 📄 App.jsx
+│   ├── 🎨 index.css
+│   └── 📄 main.jsx
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── 📄 vite.config.js
 ```
+
+---
+
+## To Cole Repo Follow These instructions
 ### Clone the repository:
 ```
-git clone https://github.com/Durgaprasad4289/To-Do-List.git
+git clone https://durgaprasad4289.github.io/To-Do-List/
+
 ```
+
 ### Navigate to the project:
 ```
 cd To-Do-List
-
 ```
+
 ### Install dependencies:
+
 ```
 npm install
 ```
+
 ### Run locally:
 ```
 npm run dev
